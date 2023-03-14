@@ -1,0 +1,63 @@
+export const distdatabase= [
+{
+    "id":1,
+    "name":"hair1",
+    "img":"https://hairdofamilysalon.com/images/gallery/1.jpg?v=1.2",
+},
+{
+    "id":2,
+    "name":"hair2",
+    "img":"https://hairdofamilysalon.com/images/gallery/2.jpg?v=1.2",
+},
+{
+    "id":3,
+    "name":"hair3",
+    "img":"https://hairdofamilysalon.com/images/gallery/3.jpg?v=1.2",
+},
+{
+    "id":4,
+    "name":"hair4",
+    "img":"https://hairdofamilysalon.com/images/gallery/4.jpg?v=1.2",
+},
+{
+    "id":5,
+    "name":"hair5",
+    "img":"https://hairdofamilysalon.com/images/gallery/5.jpg?v=1.2",
+},
+{
+    "id":6,
+    "name":"hair6",
+    "img":"https://hairdofamilysalon.com/images/gallery/6.jpg?v=1.2",
+},
+{
+    "id":7,
+    "name":"hair7",
+    "img":"https://hairdofamilysalon.com/images/gallery/7.jpg?v=1.2",
+},
+{
+    "id":8,
+    "name":"hair8",
+    "img":"https://hairdofamilysalon.com/images/gallery/15.jpg?v=1.2",
+},
+{
+    "id":9,
+    "name":"hair9",
+    "img":"https://hairdofamilysalon.com/images/gallery/16.jpg?v=1.2",
+},
+{
+    "id":10,
+    "name":"hair10",
+    "img":"https://hairdofamilysalon.com/images/gallery/17.jpg?v=1.2",
+},
+{
+    "id":11,
+    "name":"hair11",
+    "img":"https://hairdofamilysalon.com/images/gallery/18.jpg?v=1.2",
+},
+{
+    "id":12,
+    "name":"hair11",
+    "img":"https://hairdofamilysalon.com/images/gallery/24.jpg?v=1.2",
+}
+
+]
