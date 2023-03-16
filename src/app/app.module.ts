@@ -20,6 +20,10 @@ import { GroomComponent } from './pages/groom/groom.component';
 import { SpapageComponent } from './pages/spapage/spapage.component';
 import { ThreadpageComponent } from './pages/threadpage/threadpage.component';
 import { ViewstatusComponent } from './pages/viewstatus/viewstatus.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideAuth,getAuth } from '@angular/fire/auth';
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 
 @NgModule({
   declarations: [
@@ -45,7 +49,10 @@ import { ViewstatusComponent } from './pages/viewstatus/viewstatus.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideAuth(() => getAuth()),
+    provideFirestore(() => getFirestore())
   ],
   providers: [],
   bootstrap: [AppComponent]

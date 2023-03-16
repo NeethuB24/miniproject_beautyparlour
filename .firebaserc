@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "mini-beautyparlour": {
+      "hosting": {
+        "bpvlog": [
+          "mini-beautyparlour"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "mini-beautyparlour"
+  }
+}
