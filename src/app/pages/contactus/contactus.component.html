@@ -54,15 +54,15 @@
                   <h2>Contact Us</h2>
                   <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Enter your Name</label>
-                    <input type="text" class="form-control" id="exampleInputName" required>
+                    <input type="text" [(ngModel)]="cname" name="gname" class="form-control" id="exampleInputName" required>
                   </div>
-                  <label for="exampleInputEmail1" class="form-label"> Enter your Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-                  <label for="exampleInputEmail1" class="form-label"> Enter your Course</label>
-                  <input type="text" class="form-control" id="exampleInputCourse" aria-describedby="course" required>
+                  <label for="exampleInputEmail1" class="form-label"> Enter your Email</label>
+                  <input type="email" [(ngModel)]="cemail" name="gemail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                  <label for="exampleInputEmail1" class="form-label"> Enter your Phone Number</label>
+                  <input type="text" [(ngModel)]="cphone" name="gphone" class="form-control" id="exampleInputCourse" aria-describedby="course" required>
                 </div>
                 
-                <button type="submit" class="btn btn-secondary btn-outline-light"><b>Submit</b></button>
+                <button type="submit" class="btn btn-secondary btn-outline-light" (click)="submit()"><b>Submit</b></button>
               </form>
             </div>
           </div>

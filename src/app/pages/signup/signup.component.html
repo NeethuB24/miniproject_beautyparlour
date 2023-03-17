@@ -26,19 +26,19 @@
         <form class="row g-3">
             <div class="col-mb-3">
               <label for="validationDefault01" class="form-label">Enter your Name</label>
-              <input type="text" class="form-control" id="validationDefault01" value="" required>
+              <input type="text" [(ngModel)]="name" name="fname" class="form-control" id="validationDefault01" value="" required>
             </div>
             <div class="col-mb-3">
               <label for="validationDefault02" class="form-label">Enter your email</label>
-              <input type="email" class="form-control" id="validationDefault01" value="" required>
+              <input type="email" [(ngModel)]="email" name="femail" class="form-control" id="validationDefault01" value="" required>
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Enter Whatsup number</label>
-                <input type="text" class="form-control" id="exampleInputPassword1" required>
+                <input type="text" [(ngModel)]="phone" name="fphone" class="form-control" id="exampleInputPassword1" required>
               </div>
               <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Choose a date</label>
-                <input type="date" class="form-control" id="exampleInputPassword1" required>
+                <input type="date" [(ngModel)]="ddate"  name="fdate" class="form-control" id="exampleInputPassword1" required>
               </div>
               <!-- <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Service required</label>
@@ -46,9 +46,9 @@
               </div> -->
               <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Service required</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                <textarea class="form-control" [(ngModel)]="reqservice" name="fservice" id="exampleFormControlTextarea1" rows="3" required></textarea>
               </div>
-            <button type="submit" class="btn btn-secondary btn-outline-light"><b>Submit</b></button>
+            <button type="submit" class="btn btn-secondary btn-outline-light" (click)="subform()"><b>Submit</b></button>
           </form>
       </div>
     </div>
