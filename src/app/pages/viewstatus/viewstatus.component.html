@@ -35,9 +35,9 @@
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Enter Whatsup number</label>
-                <input type="text" class="form-control" id="exampleInputPassword1" required>
+                <input type="text" [(ngModel)]="pnumb" name="num" class="form-control" id="exampleInputPassword1" required>
               </div>
-            <button type="submit" class="btn btn-secondary btn-outline-light"><b>Check</b></button>
+            <button type="submit" class="btn btn-secondary btn-outline-light" (click)="find()"><b>Check</b></button>
           </form>
       </div>
     </div>
